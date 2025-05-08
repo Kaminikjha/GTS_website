@@ -19,7 +19,7 @@ import {
 import { motion } from "framer-motion";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import emailjs from "emailjs-com";
-import logo from "./assets/logo.webp";
+import logo from "./assets/logo.jpeg";
 import bgVideo1 from "./assets/bgvideo1.mp4";
 import bgVideo2 from "./assets/bgvideo2.mp4";
 import Login from "./components/Login";
@@ -805,7 +805,7 @@ const Footer = () => {
     <footer className="bg-[#f06321] opacity-90 text-white py-8">
       <div className="container mx-auto px-4 flex flex-col items-center">
         <div className="flex flex-col md:flex-row justify-center w-constant text-center">
-          <div className="flex items-center justify-center space-x-4 md:px-10  pb-3 sm:pb-0">
+          <div className="flex items-center justify-center space-x-4 md:px-10 lg:pl-36 pb-3 sm:pb-0">
             <img
               className="rounded-2xl hover:opacity-90 hover:scale-105 transition duration-300"
               src={logo}
